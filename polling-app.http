@@ -9,7 +9,7 @@ Content-Type: application/json
 }
 
 ### Authorization by token. Use token to authorize.
-GET https://httpbin.org/headers
+GET http://127.0.0.1:8000/headers
 Authorization: Bearer
 
 ### GET polls
