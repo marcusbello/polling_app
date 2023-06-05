@@ -1,6 +1,14 @@
 ## Polling App
 - - -
 
+#### Features:
+- User authentication
+- Add Polls
+- Add Choices for each polls
+- Record votes for each choice on the poll
+- Read Polls with all the associated data
+- JWT authentication and authorization
+
 #### Endpoints :
 
 | URL                       | HTTP Verb | Functions                              |
