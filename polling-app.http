@@ -1,0 +1,22 @@
+### Create User
+POST http://127.0.0.1:8000/users/
+Content-Type: application/json
+
+{
+  "username": "marcus.user",
+  "email": "marcus@marcus.com",
+  "password": "password123@"
+}
+
+### Authorization by token. Use token to authorize.
+GET https://httpbin.org/headers
+Authorization: Bearer
+
+### GET polls
+GET http://127.0.0.1:8000/polls
+Accept: application/json
+
+### GET poll
+GET http://127.0.0.1:8000/polls/1
+Accept: application/json
+###
