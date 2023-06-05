@@ -15,4 +15,4 @@
 #### Tools :
 1. Python
 2. Django & Django Rest Framework
-3. Postgres
+3. Postgres (Unplugged for dev)
